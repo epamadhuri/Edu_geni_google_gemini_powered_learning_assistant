@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGenie - AI Learning Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 EduGenie AI Learning Assistant</h1>
+
+        <p class="subtitle">
+            Ask any educational question and get an AI-powered response.
+        </p>
+
+        <label>Select Subject</label>
+
+        <select id="subject">
+            <option>Python</option>
+            <option>Java</option>
+            <option>Machine Learning</option>
+            <option>Artificial Intelligence</option>
+            <option>Data Science</option>
+        </select>
+
+        <label>Enter Your Question</label>
+
+        <textarea id="question"
+        placeholder="Example: What is Machine Learning?"></textarea>
+
+        <button onclick="answerQuestion()">
+            Ask AI
+        </button>
+
+        <h3>AI Response</h3>
+
+        <div id="answer">
+            Your answer will appear here...
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
